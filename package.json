@@ -1,0 +1,44 @@
+{
+  "name": "Toby-chat-liff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./backend/server.js",
+    "build": "cd frontend && react-scripts build",
+    "predeploy": "cd frontend && yarn build",
+    "deploy": "gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuyunchia/Toby-chat-liff.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuyunchia/Toby-chat-liff/issues"
+  },
+  "homepage": "https://github.com/yuyunchia/Toby-chat-liff#readme",
+  "dependencies": {
+    "@line/liff": "^2.13.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-liff": "^1.0.0",
+    "react-scripts": "^4.0.3",
+    "web-vitals": "^2.1.0",
+    "websocket": "^1.0.34",
+    "ws": "^8.1.0"
+  },
+  "devDependencies": {}
+}
